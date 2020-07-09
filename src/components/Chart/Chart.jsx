@@ -63,7 +63,7 @@ const Chart= ({data:{confirmed,recovered,deaths},country})=>{
             }}
             options={{
                 legend:{display:false},
-                title:{dislplay:true, text:'current state in ${country}'},
+                title:{dislplay:true, text:`current state in ${country}`},
             }}
             
             />
