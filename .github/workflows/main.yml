@@ -35,4 +35,4 @@ jobs:
     - name: installing surge
       run: npm install -g surge
     - name: deploying surge ap
-      run: surge ./build http://covid-19-tracker-MSCheema.surge.sh/ --token "6e11900c55a904682c102115c1d0ea2a"
+      run: surge ./build http://covid-19-tracker-MSCheema.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
